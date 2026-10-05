@@ -1,0 +1,27 @@
+"""
+mp1lib.py
+- Let's write some general info about the file here if need be
+"""
+
+# flip each bit independently w.p. p
+def bsc(bits, p, rng):
+
+    return
+
+# number of errors in each packet
+def packet_errors(n_pkt, n_bits, p, rng):
+
+    return
+
+# attempts until the first clean packet,
+# q = per-attempt clean probability
+def attempts_until_clean(n_trials, q, rng):
+
+
+    return
+
+# total variation distance,
+# both arrays over the same support
+def tv_distance(pmf1, pmf2):
+
+    return
