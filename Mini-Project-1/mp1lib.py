@@ -16,8 +16,7 @@ def packet_errors(n_pkt, n_bits, p, rng):
 # attempts until the first clean packet,
 # q = per-attempt clean probability
 def attempts_until_clean(n_trials, q, rng):
-
-
+    n_trials = rng.geometric(q)
     return
 
 # total variation distance,
