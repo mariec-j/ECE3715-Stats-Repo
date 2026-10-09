@@ -19,10 +19,14 @@ Alejandra A.
 - Write what you did here i guess
 
 Helena M.
-- Placeholder words
+- Placeholder words idk
+- claim what step you guys wanna do
 
 Marie J.
-- Idk
+- Functions
+- Step 2
+
 
 Nathan Z.
-- Words
+- Functions
+- Step 1
