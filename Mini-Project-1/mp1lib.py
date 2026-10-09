@@ -13,8 +13,7 @@ def bsc(bits, p, rng):
 
 # number of errors in each packet
 def packet_errors(n_pkt, n_bits, p, rng):
-
-    return
+    return rng.binomial(n_bits, p, n_pkt)
 
 # attempts until the first clean packet,
 # q = per-attempt clean probability
