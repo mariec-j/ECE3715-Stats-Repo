@@ -9,10 +9,7 @@ import jupyter as jp
 
 # flip each bit independently w.p. p
 def bsc(bits, p, rng):
-    toFlipMask = np.random.binomial(1,p,bits.size())
-    transmittedBits = bits ^ toFlipMask
-    
-    return transmittedBits
+    return bits ^ rng.binomial(1, p, bits.size())
 
 # number of errors in each packet
 def packet_errors(n_pkt, n_bits, p, rng):
