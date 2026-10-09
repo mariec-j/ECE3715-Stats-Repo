@@ -9,7 +9,7 @@ import jupyter as jp
 
 # flip each bit independently w.p. p
 def bsc(bits, p, rng):
-    return bits ^ rng.binomial(1, p, bits.size())
+    return bits ^ rng.binomial(1, p, bits.shape())
 
 # number of errors in each packet
 def packet_errors(n_pkt, n_bits, p, rng):
