@@ -20,4 +20,4 @@ def attempts_until_clean(n_trials, q, rng):
 # total variation distance,
 # both arrays over the same support
 def tv_distance(pmf1, pmf2):
-    return np.sum(np.abs(pmf1-pmf2)) / 2
+    return np.sum(np.abs(pmf1 - pmf2)) / 2
