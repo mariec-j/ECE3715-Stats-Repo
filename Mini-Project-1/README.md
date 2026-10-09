@@ -16,7 +16,9 @@ Returns a calculation of the total variatoin distance between `pmf1` and `pmf2`.
 
 ## What each member did:
 Alejandra A.
-- Write what you did here i guess
+- Step 3
+- Step 4
+- Step 5
 
 Helena M.
 - Placeholder words idk
