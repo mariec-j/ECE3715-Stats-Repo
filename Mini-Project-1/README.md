@@ -18,9 +18,12 @@ Returns a calculation of the total variation distance between `pmf1` and `pmf2`.
 Alejandra A.
 - Step 7
 - Bonus Questions
+  - A
+  - B
 
 Helena M.
 - Step 6
+- Step 8
 
 Marie J.
 - Functions
