@@ -16,8 +16,7 @@ Returns a calculation of the total variation distance between `pmf1` and `pmf2`.
 
 ## What each member did:
 Alejandra A.
-- Step 4
-- Step 5
+- Placeholder
 
 Helena M.
 - Placeholder words idk
@@ -26,9 +25,11 @@ Helena M.
 Marie J.
 - Functions
 - Step 2
+- Step 4
 
 
 Nathan Z.
 - Functions
 - Step 1
 - Step 3
+- Step 5
