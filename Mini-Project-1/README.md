@@ -12,7 +12,7 @@ Returns the number of errors for each packet using `rng.binomial()`.
 Returns the amount of attempts needed till a packet is cleaned, with `q` being the probability of it getting cleaned.
 
 ### > `tv_distance(pmf1, pmf2)`
-Returns a calculation of the total variatoin distance between `pmf1` and `pmf2`.
+Returns a calculation of the total variation distance between `pmf1` and `pmf2`.
 
 ## What each member did:
 Alejandra A.
