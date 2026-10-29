@@ -1,6 +1,5 @@
 import numpy as np
-from scipy import stats
-from scipy import special
+from scipy import stats, special
 
 # print(np.random.default_rng().integers(0, 2**31))
 
