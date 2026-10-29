@@ -7,7 +7,7 @@ def inv_cdf_exponential(u, lam): # -> ndarray # inverse CDF, exponential
     return stats.expon.ppf(u, scale = 1 / lam)
 
 def inv_cdf_rayleigh(u, sigma): # -> ndarray # inverse CDF, Rayleigh
-    return
+    return stats.rayleigh.ppf(u, scale = sigma)
 
 def sample_by_inversion(inv_cdf, n, rng, **kw): # -> ndarray # uniform in, samples out
     return
