@@ -1,5 +1,6 @@
 import numpy as np
 from scipy import stats
+from scipy import special
 
 # print(np.random.default_rng().integers(0, 2**31))
 
@@ -16,4 +17,4 @@ def ks_statistic(samples, cdf): # -> float # sup |empirical CDF - analytic CDF|
     return
 
 def q_function(x): # -> ndarray # the Gaussian tail probability
-    return
+    return 0.5 * special.erfc(x / 2 ** 0.5)
