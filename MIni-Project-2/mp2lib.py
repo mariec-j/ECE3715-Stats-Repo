@@ -10,7 +10,7 @@ def inv_cdf_rayleigh(u, sigma) -> np.ndarray: # inverse CDF, Rayleigh
     return stats.rayleigh.ppf(u, scale = sigma)
 
 def sample_by_inversion(inv_cdf, n, rng, **kw) -> np.ndarray: # uniform in, samples out
-    return inv_cdf(rng.uniform(0.0, 1.0, size = n), **kw)
+    return inv_cdf(rng.random(size = n), **kw)
 
 def ks_statistic(samples, cdf) -> float: # sup |empirical CDF - analytic CDF|
     return stats.ks_1samp(samples, cdf).statistic
