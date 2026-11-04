@@ -30,7 +30,6 @@ Marie J.
 - Step 2
 - Step 4
 
-
 Nathan Z.
 - Functions
 - Step 1
