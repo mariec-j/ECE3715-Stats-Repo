@@ -16,4 +16,4 @@ def ks_statistic(samples, cdf) -> float: # sup |empirical CDF - analytic CDF|
     return stats.ks_1samp(samples, cdf).statistic
 
 def q_function(x) -> np.ndarray: # the Gaussian tail probability
-    return 0.5 * special.erfc(x / 2 ** 0.5)
+    return 0.5 * special.erfc(x / np.sqrt(2))
