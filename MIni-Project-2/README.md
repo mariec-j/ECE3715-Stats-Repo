@@ -30,4 +30,4 @@ Marie J.
 Nathan Z.
 - Functions
 - Step 2
-- 
+- Step 3
