@@ -41,3 +41,4 @@ Nathan Z.
 - Functions
 - Step 2
 - Step 3
+- Bonus A
