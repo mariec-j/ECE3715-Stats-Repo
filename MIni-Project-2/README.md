@@ -19,10 +19,10 @@ ________
 
 ## What each member did:
 Alejandra A.
-- 
+- tbd
 
 Helena M.
-- 
+- tbd
 
 Marie J.
 - Step 1
