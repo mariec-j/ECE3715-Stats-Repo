@@ -34,6 +34,7 @@ Helena M.
 - Step 8
 
 Marie J.
+- Function Documentation
 - Step 1
 - Step 4
 
