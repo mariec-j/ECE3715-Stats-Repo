@@ -1,5 +1,9 @@
 # Mini Project 2
 
+## RNG Seed:
+
+1320312820 # drawn 2026-10-29
+
 ## Functions:
 
 ### > `inv_cdf_exponential(u, lam) -> np.ndarray`
@@ -43,3 +47,4 @@ Nathan Z.
 - Step 2
 - Step 3
 - Bonus A
+- Bonus B
