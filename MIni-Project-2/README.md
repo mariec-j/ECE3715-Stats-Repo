@@ -4,6 +4,10 @@
 
 1320312820 # drawn 2026-10-29
 
+## Total Run Time:
+
+27.768 seconds # done 2026-11-9
+
 ## Functions:
 
 ### > `inv_cdf_exponential(u, lam) -> np.ndarray`
