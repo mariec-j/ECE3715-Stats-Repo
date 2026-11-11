@@ -45,6 +45,7 @@ Marie J.
 - Function Documentation
 - Step 1
 - Step 4
+- Misc. Revisions
 
 Nathan Z.
 - Functions
@@ -52,3 +53,4 @@ Nathan Z.
 - Step 3
 - Bonus A
 - Bonus B
+- Misc. Revisions
