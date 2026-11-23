@@ -20,7 +20,7 @@ def gaussian_pdf(x, mu, Sigma) -> np.ndarray: # multivariate normal density, you
     return
 
 def whitening_matrix(Sigma) -> np.ndarray: # W with W Sigma W^T = I
-    return ((eig:=np.linalg.eigh(Sigma))[1] / np.sqrt(eig[0])) @ eig[1].T
+    return ((eig := np.linalg.eigh(Sigma))[1] / np.sqrt(eig[0])) @ eig[1].T
 
 def lmmse_weights(Sigma_xx, Sigma_sx) -> np.ndarray: # the linear MMSE weight vector
     return np.linalg.solve(Sigma_xx, Sigma_sx)
