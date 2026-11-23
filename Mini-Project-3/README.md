@@ -2,7 +2,7 @@
 
 ## RNG Seed:
 
-690403480  # drawn 2026-11-23, do not change
+690403480 - drawn 2026-11-23, do not change
 
 ## Total Run Time:
 
