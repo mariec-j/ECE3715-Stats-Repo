@@ -21,7 +21,7 @@ def gaussian_pdf(x, mu, Sigma) -> np.ndarray: # multivariate normal density, you
     sol = np.linalg.solve(Sigma, x_centered.T).T  # Sigma^{-1} diff, (..., d)
     maha = np.sum(x_centered * sol, axis=-1)
 
-    return np.exp(-0.5 * (mu.shape[0] * np.log(2 * np.pi) + np.linalg.slogdet(Sigma) + maha))
+    return np.exp(-0.5 * (mu.shape[0] * np.log(2 * np.pi) + np.linalg.slogdet(Sigma)[1] + maha))
 
 
 def whitening_matrix(Sigma) -> np.ndarray: # W with W Sigma W^T = I
