@@ -17,13 +17,11 @@ def is_valid_covariance(S, tol=1e-10) -> bool: # symmetric and positive semidefi
 
 def gaussian_pdf(x, mu, Sigma) -> np.ndarray: # multivariate normal density, your own
     x_centered = x - mu
-    k = mu.shape[0]
     
-    sol = np.linalg.solve(Sigma, x_centered[..., None])[..., 0]  # Sigma^{-1} diff, (..., d)
+    sol = np.linalg.solve(Sigma, x_centered.T).T  # Sigma^{-1} diff, (..., d)
     maha = np.sum(x_centered * sol, axis=-1)
 
-    _, logdet = np.linalg.slogdet(Sigma)
-    return np.exp(-0.5 * (k * np.log(2 * np.pi) + logdet + maha))
+    return np.exp(-0.5 * (mu.shape[0] * np.log(2 * np.pi) + np.linalg.slogdet(Sigma) + maha))
 
 
 def whitening_matrix(Sigma) -> np.ndarray: # W with W Sigma W^T = I
