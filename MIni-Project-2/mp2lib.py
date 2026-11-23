@@ -4,10 +4,10 @@ from scipy import stats, special
 # print(np.random.default_rng().integers(0, 2**31))
 
 def inv_cdf_exponential(u, lam = 1.0) -> np.ndarray: # inverse CDF, exponential
-    return stats.expon.ppf(u, scale = 1 / lam)
+    return -np.log(1 - u) / lam
 
 def inv_cdf_rayleigh(u, sigma = 1.0) -> np.ndarray: # inverse CDF, Rayleigh
-    return stats.rayleigh.ppf(u, scale = sigma)
+    return sigma * np.sqrt(-2 * np.log(1 - u))
 
 def sample_by_inversion(inv_cdf, n, rng, **kw) -> np.ndarray: # uniform in, samples out
     return inv_cdf(rng.random(size = n), **kw)

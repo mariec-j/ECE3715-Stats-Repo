@@ -1,5 +1,13 @@
 # Mini Project 2
 
+## RNG Seed:
+
+1320312820 - drawn 2026-10-29, do not change
+
+## Total Run Time:
+
+16.937 seconds # done 2026-11-10
+
 ## Functions:
 
 ### > `inv_cdf_exponential(u, lam) -> np.ndarray`
@@ -34,10 +42,15 @@ Helena M.
 - Step 8
 
 Marie J.
+- Function Documentation
 - Step 1
 - Step 4
+- Misc. Revisions
 
 Nathan Z.
 - Functions
 - Step 2
 - Step 3
+- Bonus A
+- Bonus B
+- Misc. Revisions
