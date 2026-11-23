@@ -37,7 +37,9 @@ Helena M.
 - 
 
 Marie J.
-- 
+- Functions
+- Step 1
 
 Nathan Z.
-- 
+- Functions
+- Step 2
