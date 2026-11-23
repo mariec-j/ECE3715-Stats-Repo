@@ -12,7 +12,7 @@ def is_valid_covariance(S, tol=1e-10) -> bool: # symmetric and positive semidefi
         and S.shape[0] == S.shape[1]
         and np.all(np.isfinite(S))
         and np.allclose(S, S.T, atol=tol)
-        and np.all(np.linalg.eigvalsh(S) >= -tol)
+        and np.all(np.linalg.eigh(S)[0] >= -tol)
     )
 
 def gaussian_pdf(x, mu, Sigma) -> np.ndarray: # multivariate normal density, your own
