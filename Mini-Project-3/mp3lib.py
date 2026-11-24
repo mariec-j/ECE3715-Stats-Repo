@@ -1,10 +1,14 @@
 import numpy as np
-from scipy import stats, special
+from typing import NamedTuple
 
 # print(np.random.default_rng().integers(0, 2**31))
 
+class cov(NamedTuple):
+    mean_vector: np.ndarray
+    cov_matrix: np.ndarray
+
 def sample_mean_cov(X) -> tuple[np.ndarray, np.ndarray]: # (mean_vector, cov_matrix): # X is (N, d)
-    return np.mean(X, axis=0), np.cov(X, rowvar=False)
+    return cov(mean_vector=np.mean(X, axis=0), cov_matrix=np.cov(X, rowvar=False))
 
 def is_valid_covariance(S, tol=1e-10) -> bool: # symmetric and positive semidefinite
     return (
