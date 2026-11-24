@@ -11,7 +11,7 @@ def sample_mean_cov(X) -> tuple[np.ndarray, np.ndarray]: # (mean_vector, cov_mat
     return cov(mean_vector=np.mean(X, axis=0), cov_matrix=np.cov(X, rowvar=False))
 
 def is_valid_covariance(S, tol=1e-10) -> bool: # symmetric and positive semidefinite
-    return (
+    return bool(
             S.ndim == 2
         and S.shape[0] == S.shape[1]
         and np.all(np.isfinite(S))
