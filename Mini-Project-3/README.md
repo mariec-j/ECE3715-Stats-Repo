@@ -31,10 +31,12 @@ ________
 
 ## What each member did:
 Alejandra A.
-- 
+- Step 5
+- Step 6
 
 Helena M.
-- 
+- Step 7
+- Step 8
 
 Marie J.
 - Functions
